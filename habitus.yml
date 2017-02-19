@@ -1,6 +1,6 @@
 build:
-  version: 2017-02-18
+  version: 2016-03-14
   steps:
     builder:
-      name: testb
+      name: builder
       dockerfile: Dockerfile
