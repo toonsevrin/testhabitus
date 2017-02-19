@@ -2,5 +2,5 @@ build:
   version: 2017-02-18
   steps:
     builder:
-      name: builder
+      name: testb
       dockerfile: Dockerfile
