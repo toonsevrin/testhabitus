@@ -7,4 +7,4 @@ before_install:
   - chmod +x habitus
   - sudo cp habitus /bin/habitus
 script:
-  - sudo ./habitus
+  - ./habitus
