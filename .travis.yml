@@ -5,6 +5,6 @@ services:
 before_install:
   - wget https://github.com/cloud66/habitus/releases/download/0.4.9/habitus_darwin_amd64 -o habitus
   - chmod +x habitus
-  - sudo mv habitus /bin/habitus
+  - sudo cp habitus /bin/habitus
 script:
   - sudo ./habitus
