@@ -1,3 +1,4 @@
+dist: trusty
 language: ruby
 sudo_enabled: true
 services:
