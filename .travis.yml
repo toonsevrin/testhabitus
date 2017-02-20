@@ -7,4 +7,4 @@ before_install:
   - sudo chmod +x habitus
   - sudo ./habitus -version
 script:
-  - sudo ./habitus --no-cache
+  - sudo ./habitus --no-cache --binding 127.0.0.1
